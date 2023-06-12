@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt | awk 'NR>1 {print $9}'| head -n 10
